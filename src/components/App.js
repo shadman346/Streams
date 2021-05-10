@@ -8,7 +8,9 @@ import StreamShow from './streams/StreamShow';
 import Header from './Header';
 import history from '../history';
 
+//
 //Switch is used so stream/new and stream/:id do not render simultaneously,whoever matches first only that route wil render
+//
 
 const App = () => {
    return (
